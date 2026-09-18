@@ -27,8 +27,8 @@
 
 
 ##  Ссылки
-* **Демо-страница:** []()
-* **Репозиторий:** [git@github.com:Ekaterina-siryk/game-goblin.git](git@github.com:Ekaterina-siryk/game-goblin.git)
+* **Демо-страница:** [https://ekaterina-siryk.github.io/game-goblin/](https://ekaterina-siryk.github.io/game-goblin/)
+* **Репозиторий:** [https://github.com/Ekaterina-siryk/game-goblin](https://github.com/Ekaterina-siryk/game-goblin)
 
 ##  Особенности реализации
 * Использован чистый JavaScript (ООП-подход с использованием классов) и сборка проекта на базе **Webpack 5** (стили, разметка и изображения импортируются через модули).
