@@ -3,7 +3,7 @@ import goblinSrc from '../assets/goblin.png';
 export default class Game {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
-    this.boardSize = 16; 
+    this.boardSize = 16;
     this.holes = [];
     this.goblinEl = null;
     this.currentHoleIndex = -1;
@@ -36,13 +36,13 @@ export default class Game {
 
   moveGoblin() {
     let newIndex = Math.floor(Math.random() * this.boardSize);
-    
+
     while (newIndex === this.currentHoleIndex) {
       newIndex = Math.floor(Math.random() * this.boardSize);
     }
 
     this.currentHoleIndex = newIndex;
-    
+
     this.holes[this.currentHoleIndex].appendChild(this.goblinEl);
   }
 
